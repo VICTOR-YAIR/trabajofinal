@@ -1,0 +1,114 @@
+    /* Colores principales */
+    :root {
+        --primary-color: #662400;
+        /* Marrón oscuro */
+        --secondary-color: #B33F00;
+        /* Rojo intenso */
+        --text-light: #ffffff;
+        /* Blanco */
+    }
+
+    /* Navbar personalizado */
+
+    /* boton navhb */
+    .iconohb {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        background-color: var(--primary-color);
+
+    }
+
+    .navbar .nav-link {
+        color: var(--text-light);
+        font-weight: bold;
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--secondary-color);
+
+    }
+
+    /* Navbar-toggler */
+    .navbar-toggler {
+        border-color: var(--text-light);
+    }
+
+    /* Fondo de la cabecera */
+    header,
+    .navbar {
+        background-color: var(--primary-color);
+        color: var(--text-light);
+    }
+
+    /* Enlaces de navegación */
+    .navbar-nav .nav-link {
+        color: var(--text-light);
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: var(--secondary-color);
+    }
+
+    /* Fondo de secciones */
+
+    .bg-light {
+        background-color: #f9f9f9;
+        color: var(--primary-color);
+    }
+
+
+    /* Botones */
+    .btn-custonsd {
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+    }
+
+    .btn-custonsd:hover {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+
+
+
+
+    /* Cards de productos */
+    .card {
+        border: 1px solid var(--primary-color);
+    }
+
+    .card-title {
+        color: var(--secondary-color);
+    }
+
+    .card-text {
+        color: var(--primary-color);
+    }
+
+    /* Fondo cover en la sección inicio */
+    .inicio {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('https://estaticos-cdn.prensaiberica.es/clip/69d7cfdd-f561-4176-b89a-a1225032b750_source-aspect-ratio_default_0.jpg') no-repeat center center;
+        background-size: cover;
+        color: white;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* seccion productos */
+    .card-img-top {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
